@@ -1,0 +1,159 @@
+/* General settings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.psu-logo {
+  width: 80px;
+  margin-right: 20px;
+}
+
+/* Content layout */
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Left section */
+.left-section {
+  width: 65%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Right section with menu and form */
+.right-section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  background-color: #005eb8;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.menu h3 {
+  margin-bottom: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Registration form styling */
+.registration-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+  color: #005eb8;
+}
+
+.registration-container p {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #005eb8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #004080;
+}
+
+.registration-container a {
+  color: #005eb8;
+  text-decoration: none;
+}
+
+.registration-container a:hover {
+  text-decoration: underline;
+}
+
+/* Chatbot button */
+.chatbot-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chatbot-button {
+  background-color: #005eb8;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.chatbot-button:hover {
+  background-color: #004080;
+}

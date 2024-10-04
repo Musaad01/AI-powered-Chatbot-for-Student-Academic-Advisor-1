@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Sultan University - Edugate</title>
+    <link rel="stylesheet" type="text/css" href="C-SE-99.Css">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="main-container">
+        <!-- Header -->
+        <header class="header">
+            <img src="psu-logo.png" alt="PSU Logo" class="psu-logo">
+            <h1>Prince Sultan University - Edugate</h1>
+        </header>
+
+        <!-- Content Section -->
+        <div class="content">
+            <!-- Left Section (Announcements) -->
+            <div class="left-section">
+                <h2>إعلانات البوابة الإلكترونية</h2>
+                <p>هنا يمكنك رؤية أحدث الإعلانات المتعلقة بالبوابة الإلكترونية.</p>
+            </div>
+
+            <!-- Right Section (Menu and Registration Form) -->
+            <div class="right-section">
+                <!-- Menu -->
+                <div class="menu">
+                    <h3>القائمة الرئيسية</h3>
+                    <ul>
+                        <li><a href="#">أكاديمي</a></li>
+                        <li><a href="#">القبول</a></li>
+                        <li><a href="#">التحقق من الوثائق</a></li>
+                    </ul>
+                </div>
+
+                <!-- Registration Form -->
+                <div class="registration-container">
+                    <form action="/register" method="POST">
+                        <h2>عزيزي المستخدم</h2>
+                        <p>الرجاء ادخال اسم المستخدم و كلمة السر للتسجيل في النظام.</p>
+                        <div class="form-group">
+                            <label for="role">نوع التسجيل</label>
+                            <select id="role" name="role">
+                                <option value="طالب">طالب</option>
+                                <option value="عضو هيئة تدرس">عضو هيئة تدرس</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">اسم المستخدم</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">كلمة السر</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit">تسجيل</button>
+                    </form>
+                    <p>اذا نسيت كلمة السر <a href="#">(اضغط هنا)</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chatbot button -->
+        <div class="chatbot-button-container">
+            <a href="AI-499.html" class="chatbot-button">Student Support Chatbot</a>
+        </div>
+    </div>
+
+    <script src="J-SE-499.js"></script>
+</body>
+</html>
